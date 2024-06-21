@@ -1,0 +1,1 @@
+require('fs/promises').rm(require('path').join(__dirname, '../dist'), { recursive: true, force: true }).then(() => console.log("Successfully cleaned ./dist")).catch(() => () => console.log("Failed to clean ./dist"))

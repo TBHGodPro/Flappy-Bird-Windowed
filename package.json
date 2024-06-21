@@ -1,0 +1,23 @@
+{
+  "name": "Flappy Flap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "node scripts/clean.cjs",
+    "start": "electron .",
+    "test": "npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "filehound": "^1.17.6",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "electron": "^31.0.1"
+  }
+}
